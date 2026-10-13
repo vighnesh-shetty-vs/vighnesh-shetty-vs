@@ -7,16 +7,15 @@ Data analyst in Paris. 2+ years at CSB Bank (India) building SQL ETL pipelines, 
 
 #### Selected projects
 
-| Project | What it does | Stack |
+| Project | What it shows | Stack |
 |---|---|---|
-| [Card Fraud Detection](https://github.com/vighnesh-shetty-vs/Real-Time-Financial-Fraud-Detection-Engine) | XGBoost on 284k card transactions (0.17% fraud), SHAP explanation for each flagged transaction | XGBoost, SHAP, Streamlit |
-| [AlphaWiz](https://github.com/vighnesh-shetty-vs/AlphaWiz) · [demo](https://vighnesh-shetty-vs-alphawiz-app-lxsuvq.streamlit.app/) | Probability-of-default scoring, Basel III stress test and retention manager on synthetic bank data | XGBoost, SHAP, SQLAlchemy |
+| [Retail bank analytics](https://github.com/vighnesh-shetty-vs/bank-analytics-dbt-powerbi) · [dbt docs](https://vighnesh-shetty-vs.github.io/bank-analytics-dbt-powerbi/) | Warehouse on real Czech bank data (1M+ transactions): 17 dbt models, 55 tests, 10 SQL business questions, 3-page Power BI report with DAX and RLS | SQL, dbt, DuckDB, Power BI, CI |
+| [Credit card default scorecard](https://github.com/vighnesh-shetty-vs/credit-risk-scorecard) | Points scorecard on 30k real customers: WoE/IV, Gini 0.51, KS, PSI, cost-based cut-off, fairness check | Python, scikit-learn, pytest |
+| [Card fraud detection](https://github.com/vighnesh-shetty-vs/card-fraud-detection-xgboost-shap) | XGBoost on 284k transactions (0.17% fraud), PR-AUC 0.86, SHAP explanation for each blocked transaction | XGBoost, SHAP, Streamlit |
+| [Onboarding A/B test](https://github.com/vighnesh-shetty-vs/fintech-onboarding-ab-test) | SQL cleaning of messy events, power analysis, SRM, guardrail breach, decision memo | SQL, DuckDB, statistics |
+| [AeroCarbon Exchange](https://github.com/vighnesh-shetty-vs/Aerocarbon) · [demo](https://vighnesh-shetty-vs-aerocarbon-app-f38jgj.streamlit.app/) | Streamlit MVP for a carbon-credit startup pitch (group project) | Streamlit, Plotly |
 | [DocuMind](https://github.com/vighnesh-shetty-vs/documind_bi_engine) · [demo](https://vighnesh-shetty-vs-documind-bi-engine-app-e02umc.streamlit.app/) | Flags risky contract clauses and cross-references PDFs with an LLM | Gemini API, PyPDF2 |
-| [Telco Churn](https://github.com/vighnesh-shetty-vs/Telco-Churn-Prediction) · [demo](https://vighnesh-shetty-vs-telco-churn-prediction-app-x2xli5.streamlit.app/) | Churn probability for any customer profile, 7,043-customer dataset | scikit-learn, SMOTE |
-| [Market Basket Analysis](https://github.com/vighnesh-shetty-vs/Market-Basket-Analysis) · [demo](https://vighnesh-shetty-vs-market-basket-analy-market-basket-app-iv8ny8.streamlit.app/) | Product bundles from 541k retail invoice lines | FP-Growth, mlxtend, Plotly |
-| [AeroCarbon Exchange](https://github.com/vighnesh-shetty-vs/Aerocarbon) · [demo](https://vighnesh-shetty-vs-aerocarbon-app-f38jgj.streamlit.app/) | Group startup pitch + MVP: turns airline efficiency gains into carbon credits and revenue | Streamlit, Plotly |
-| [AlphaSense](https://github.com/vighnesh-shetty-vs/AlphaSense-NLP-Trading-Signal-Engine-New) · [demo](https://vighnesh-shetty-vs-alphasense-nlp-trading-signal-eng-app-hrpqrm.streamlit.app/) | News sentiment combined with price signals across equities, FX and crypto | VADER, yfinance |
 
 **Hackathons:** 1st place, CGI × BNP Paribas × KEDGE (2026), with a multi-agent marketing-validation platform (Azure OpenAI GPT-4o, FastAPI) · [L'Oréal](https://github.com/vighnesh-shetty-vs/Loreal-Hackathon-Knowledge-Distillation) (RoBERTa → DistilRoBERTa) · [Betclic RecSys](https://github.com/vighnesh-shetty-vs/Hybrid_SVD_Recommender_System) (hybrid SVD)
 
-**Tools:** Python (pandas, scikit-learn, XGBoost), SQL, Power BI, Tableau, Streamlit, Git, Azure AI (AI-900)
+**Tools:** SQL (PostgreSQL, DuckDB), dbt, Power BI (DAX), Tableau, Python (pandas, scikit-learn, XGBoost), Git and GitHub Actions, Streamlit, Azure AI (AI-900)
